@@ -51,20 +51,33 @@
     <!-- === END OF NAVBAR === -->
 
     <!-- === LANDING PAGE === -->
-    <section class="landing" id="home">
-        <div class="landing-container">
-            <div class="landing2">
-                <img class="banner-img1" src="/images/pastelRainbow.png" alt="book">
-                <img class="banner-img2" src="/images/cartoon.png" alt="">
-                <img class="banner-img3" src="/images/butterfly.png" alt="">
-            </div>
-            <div class="flex-child landing-text">
-                <p>A SUNDAY ON A MONDAY</p>
-            </div>
-           
+    <div class="landing" id="home">
+        <!-- Clouds-->
+        <div class="cloud-container">
+            <div id="clouds"></div>
         </div>
+        <!-- End of Clouds -->
+
+            <div class="book-image">
+              <img src="/images/mock3.png" class="book-image-img">
+            </div>
+          
+            <div class="book-p-text">
+                <div>
+                    <p class="book-p-text2" >"A fun way to teach your kid how one word can mean multiple things!" <br> -India's Mom </p>
+                    <div class="book-stars">
+                        <i class="fa-solid fa-star star fa-xl"></i><i class="fa-solid fa-star star fa-xl"></i><i class="fa-solid fa-star star fa-xl"></i><i class="fa-solid fa-star star fa-xl"></i><i class="fa-solid fa-star star fa-xl"></i>
+                    </div>
+                </div>
+                <p class="landing-text">A SUNDAY <br> ON A  MONDAY</p>
+            </div>
+
+                <a href="https://www.barnesandnoble.com/w/a-sunday-on-a-monday-el-jones/1141895931?ean=9781669837794" class="banner-button" target="_blank">Get It Now</a>
+           
+                <img class="banner-img3" src="/images/butterfly.png" alt="butterfly">
+                <!-- <img class="sun" src="/images/sun.png" alt="sun"> -->
         
-    </section>
+    </div>
     
     <div class="custom-shape-divider-top-1659240106">
         <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120" preserveAspectRatio="none">
@@ -77,18 +90,18 @@
 
     <!-- === ABOUT THE BOOK === -->
 
-   
-
     <section class="about-book" id="about">
-        <div class="container book-container">
+        <div class="container book-container2">
             <div class="book-image">
-              <img class="book-image2" src="/images/sundayBook.png">
+              <img class="book-image2" src="/images/mockup2.png">
+              <!-- <img class="banner-img1" src="/images/pastelRainbow.png" alt="book"> -->
             </div>
             <div class="text">
                 <h1 class="about-title">A Sunday on a Monday</h1>
                 <p class="book-paragraph">It’s a day of confusion for Izzy as she ventures on a short journey of understanding a play on words. After a twist here and there, she ends her journey with a smile and a realization of how words can have very different meanings.</p>
                 <div class="about-btn">
-                    <button class="book-button" >Get Your Copy Now!</button>  
+                    <!-- <button class="book-button" >Get Your Copy Now!</button>   -->
+                    <a href="https://www.barnesandnoble.com/w/a-sunday-on-a-monday-el-jones/1141895931?ean=9781669837794" class="book-button" target="_blank">Get Your Copy Now</a>
                 </div>
             </div>
         </div>
@@ -133,15 +146,7 @@
     <!-- === END OF THE MAGIC OF WORDS === -->
 
 
-     <!-- === Where to find book === -->
-     <section class="retailers">
-         <span class="retailers-text">AVAILABLE NOW</span>
-         <div class="inner-retailers" >
-            <img src="/images/barnesNoble.png" alt="barnes and noble logo" style="height: 300px">
-            <img src="/images/amazonLogo.png" alt="amazon logo" style="height: 250px" class="retail-img">
-        </div>
-     </section>
-     <!-- === Where to find book === -->
+    
 
 
      <!-- === ABOUT THE AUTHOR === -->
@@ -157,6 +162,16 @@
     </section>
 
     <!-- === END OF ABOUT THE AUTHOR === -->
+
+     <!-- === Where to find book === -->
+     <section class="retailers">
+        <span class="retailers-text">AVAILABLE NOW</span>
+        <div class="inner-retailers" >
+           <img src="/images/barnesNoble.png" alt="barnes and noble logo" style="height: 300px">
+           <img src="/images/amazonLogo.png" alt="amazon logo" style="height: 250px" class="retail-img">
+       </div>
+    </section>
+    <!-- === Where to find book === -->
 
 
     <!-- === FAQS=== -->
@@ -192,23 +207,23 @@
 
     <section >
         <div class="box-title" >
-            <h1 class="box-head">Why parents love this book.</h1>
+            <h1 class="box-head">Why parents love this book!</h1>
             <div class="parents">
                 <div class="box">
-                    <p class="box-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid unde ea nobis!"
+                    <p class="box-text">"So fun! He's already learned so much. He won't put it down!"
                     <br> <br>
                     - Johnny's Mom
                     </p>
         
                 </div>
                 <div class="box">
-                    <p class="box-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid unde ea nobis!"
+                    <p class="box-text">"Definitely a great buy. This one grabs my daughter's attention!"
                         <br> <br>
                     - Leah's Dad
                     </p>
                 </div>
                 <div class="box">
-                    <p class="box-text">"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid unde ea nobis!"
+                    <p class="box-text">"This is a really cute and fun book!"
                         <br> <br>
                     - Isaiah's Grandparents
                     </p>
@@ -310,11 +325,11 @@
                 <a href="#"><i class="icon ion-social-twitter"></i></a>
                 <a href="#"><i class="icon ion-social-facebook"></i></a></div>
             <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">HOME</a></li>
-                <li class="list-inline-item"><a href="#">ABOUT THE BOOK</a></li>
-                <li class="list-inline-item"><a href="#">THE AUTHOR</a></li>
-                <li class="list-inline-item"><a href="#">BUY NOW</a></li>
-                <li class="list-inline-item"><a href="#">CONTACT</a></li>
+                <li class="list-inline-item"><a href="#home">HOME</a></li>
+                <li class="list-inline-item"><a href="#about">ABOUT THE BOOK</a></li>
+                <li class="list-inline-item"><a href="#author">THE AUTHOR</a></li>
+                <li class="list-inline-item"><a class="nav-link" href="https://www.barnesandnoble.com/w/a-sunday-on-a-monday-el-jones/1141895931?ean=9781669837794" target="_blank">BUY NOW</a></li>
+                <li class="list-inline-item"><a href="#contact">CONTACT</a></li>
             </ul>
             <p class="copyright">&copy; 2022 A Sunday on a Monday All Rights Reserved.</p>
         </footer>

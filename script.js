@@ -15,23 +15,9 @@
     });
   }
 
-/* Contact Me */
-
-document.querySelector('.submit-email').addEventListener('mousedown', (e) => {
-    e.preventDefault();
-    document.querySelector('.subscription').classList.add('done');
-  });
 
 
-  /* === Why parents love this book BOX */
 
-//   $('.box').on('mouseenter', function() {
-//     $(this).find('h1').text('Bye.');
-//   })
-  
-//   $('.box').on('mouseleave', function() {
-//     $(this).find('h1').text('Hi.');
-//   })
 
 
 

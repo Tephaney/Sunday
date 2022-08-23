@@ -1392,6 +1392,11 @@ section#post-28 {
   .book-image {
     width: 350px;
   }
+
+  .banner-img3 {
+    bottom: -140px;
+    right: -100px;
+  }
 }
 
 
@@ -1601,7 +1606,8 @@ section#post-28 {
   }
 
   .gallery-img {
-    width: 100%;
+    width: 450px;
+    height: 450px;
   }
 }
 
@@ -1671,6 +1677,180 @@ section#post-28 {
   }
 }
 
-@media (max-width: 881px) {
+@media (max-width: 768px) {
+  .landing {
+    padding-bottom: 30rem;
+  }
+  .landing-text {
+    margin-left: -12rem;
+    font-size: 85px;
   
+  }
+
+  .cloud-container {
+    top: 5%;
+  }
+
+  .book-stars {
+   margin-left: 1rem;
+  }
+
+  .book-p-text2 {
+    margin-left: -7rem;
+    margin-top: -300px;
+  }
+
+  .banner-button {
+    left: -880px;
+    top: 330px;
+  }
+
+  .banner-img1 {
+    top: 2rem;
+  }
+
+  .banner-img3 {
+    bottom: -390px;
+  }
+
+  .book-image-img {
+    position: relative;
+    margin-top: 33rem;
+    right: 13rem;
+    width: 350px;
+     
+  }
+
+  .book-image2 {
+    padding-right: 7rem;
+    width: 500px;
+  }
+
+  .book-button {
+    margin-right: 4rem;
+  }
+
+
+  .about-title {
+    font-size: 30px !important;
+
+  }
+
+  .about-text {
+    font-size: 20px;
+  
+  }
+
+  .inner-container {
+    padding-left: 10rem;
+  }
+
+  .retailers-text {
+    margin-left: 15rem;
+  }
+
+  .retail-img3 {
+    visibility: hidden;
+  }
+
+  .box-head {
+    font-size: 45px;
+  }
+
+  .box-text {
+    font-size: 25px;
+  }
+
+
+}
+
+@media (max-width: 600px) {
+
+
+  .book-stars {
+   margin-left: -5rem;
+  }
+
+  .banner-button {
+    left: -950px;
+    top: 330px;
+  }
+
+  .banner-img3 {
+    bottom: -650px;
+  }
+
+  .book-image-img {
+    position: relative;
+    margin-top: 40rem;
+    right: 20rem;
+    width: 350px;
+     
+  }
+
+  .book-button {
+    margin-right: 4rem;
+  }
+
+  .about-book {
+    margin-right: 20rem;
+  
+  }
+
+  .book-paragraph {
+    font-size: 20px;
+  }
+
+  .book-image2 {
+   width: 500px;
+   height: 400px;
+   padding-right: 20rem;
+   
+  }
+
+  .inner-container {
+    padding-left: 1rem;
+  }
+
+  .inner-retailers {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-section {
+    background: none;
+    background-color: var(--medium-blue);
+   
+  }
+
+  .retailers-text {
+    margin-left: 1rem;
+    font-size: 40px;
+  }
+
+  .inner-retailers {
+    margin-left: 1rem;
+  }
+
+  .retail-img3 {
+    visibility: visible;
+  }
+
+  .retail-img1 {
+    bottom: 60px;
+  }
+
+  .box-head {
+    font-size: 45px;
+  }
+
+  .box-text {
+    font-size: 20px;
+  }
+
+  .gallery-img {
+    width: 450px;
+    height: 450px;
+  }
+
 }

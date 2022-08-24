@@ -1721,8 +1721,12 @@ section#post-28 {
      
   }
 
+  .book-container2 {
+    padding-right: 8rem;
+  }
+
   .book-image2 {
-    padding-right: 7rem;
+    padding-right: 8rem;
     width: 500px;
   }
 
@@ -1854,3 +1858,128 @@ section#post-28 {
   }
 
 }
+
+@media (max-width: 428px) {
+  .banner-img1 {
+    left: 10rem;
+  }
+
+  .book-p-text2 {
+    margin-right: 3rem;
+  }
+
+  .book-stars {
+    font-size: 10px;
+    margin-right: 1rem;
+
+  }
+
+  .star {
+    font-size: 5px;
+    
+  }
+
+  .book-image-img {
+    margin-top: 55rem;
+    right: 26rem;
+  }
+
+  .banner-button {
+    top: 400px;
+    left: -1050px;
+  }
+
+  .banner-img3 {
+    width: 200px;
+    bottom: -300px;
+    right: -50px;
+  }
+
+  .book-image2 {
+    visibility: hidden;
+    
+   }
+
+   .text {
+    margin-left: 10rem;
+   }
+
+   .inner-retailers {
+    margin-left: -20rem;
+    
+   }
+
+
+   .retailers-text {
+    visibility: hidden;
+    
+   }
+
+  .parents {
+    display: flex;
+    flex-direction: column;
+  }
+   
+  .gallery-column {
+    margin-left: 1rem;
+  }
+
+  .gallery-img{
+    width: 300px;
+    
+  }
+
+  .news-text {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 360px) {
+  .landing-text {
+    font-size: 70px;
+  }
+
+  .book-image-img {
+    right: 28rem;
+  }
+
+  .banner-button {
+    left: -1075px;
+  }
+
+  .box {
+    width: 300px;
+  }
+
+  .gallery-column {
+    margin-left: -1rem;
+  }
+}
+
+@media (max-width: 320px) {
+  .landing-text {
+    font-size: 60px;
+  }
+
+  .book-image-img {
+    right: 30rem;
+  }
+
+
+  .banner-button {
+    left: -1100px;
+  }
+
+  .text {
+    margin-left: 5rem;
+   }
+  .box {
+    width: 250px;
+  }
+
+  .gallery-column {
+    margin-left: -3rem;
+  }
+}
+
+

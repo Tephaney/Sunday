@@ -1447,7 +1447,14 @@ section#post-28 {
 
   .banner-button {
     left: -560px;
-   
+    display: flex;
+    padding: 1rem;
+    font-size: 18px;
+    
+  }
+
+  .mytest {
+    display: flex;
   }
 
   .text {

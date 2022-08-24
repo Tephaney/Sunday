@@ -1739,7 +1739,7 @@ section#post-28 {
   }
 
   .section-paragraph {
-    font-size: 20px;
+    font-size: 20px !important;
   }
 
 
@@ -1799,6 +1799,11 @@ section#post-28 {
     width: 350px;
      
   }
+
+  .book-image2 {
+    visibility: hidden;
+    
+   }
 
   .book-button {
     margin-right: 4rem;
@@ -1871,6 +1876,10 @@ section#post-28 {
   .star {
     visibility: hidden;
   }
+
+  .about-text {
+    font-size: 16px;
+  }
 }
 
 @media (max-width: 428px) {
@@ -1909,10 +1918,7 @@ section#post-28 {
     right: -50px;
   }
 
-  .book-image2 {
-    visibility: hidden;
-    
-   }
+ 
 
    .text {
     margin-left: 10rem;

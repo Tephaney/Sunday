@@ -1734,6 +1734,14 @@ section#post-28 {
     margin-right: 4rem;
   }
 
+  .content-list {
+    font-size: 16px;
+  }
+
+  .section-paragraph {
+    font-size: 20px;
+  }
+
 
   .about-title {
     font-size: 30px !important;
@@ -1857,6 +1865,12 @@ section#post-28 {
     height: 450px;
   }
 
+}
+
+@media (max-width: 460px) {
+  .star {
+    visibility: hidden;
+  }
 }
 
 @media (max-width: 428px) {

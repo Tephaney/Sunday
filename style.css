@@ -1495,10 +1495,10 @@ section#post-28 {
 
 @media (max-width: 1355px) {
   .banner-button {
-    /* padding-top: 8px;
-    padding-bottom: 8px;
+    /* padding-top: 10px;
+    padding-bottom: 15px; */
     font-size: 15px;
-    text-align: center; */
+    text-align: center;
     
   }
 }

@@ -181,10 +181,10 @@ body {
   max-height: 100%;
 }
 
-.banner-btn {
+/* .banner-btn {
   text-align: center;
   margin-left: 600px;
-}
+} */
 
 .banner-button {
   position: relative;
@@ -1447,7 +1447,7 @@ section#post-28 {
 
   .banner-button {
     left: -560px;
-    display: flex;
+    /* display: flex; */
     padding: 1rem;
     font-size: 18px;
     
@@ -1493,12 +1493,27 @@ section#post-28 {
 
 }
 
+@media (max-width: 1355px) {
+  .banner-button {
+    /* padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 15px;
+    text-align: center; */
+    
+  }
+}
+
 
 @media (max-width: 1300px) {
   
   .banner-img3 {
       bottom: -90px;
       right: -170px;
+  }
+
+  .banner-button {
+    
+    
   }
 
   .content-header {
@@ -1539,6 +1554,8 @@ section#post-28 {
     width: 200px;
     padding-top: 1rem;
   }
+
+
 }
 
 @media (max-width: 1270px) {
